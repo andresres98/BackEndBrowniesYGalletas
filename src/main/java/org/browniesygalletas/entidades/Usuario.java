@@ -1,8 +1,12 @@
 package org.browniesygalletas.entidades;
 
-public class Usuario extends ServiceUtill{
+public class Usuario extends ServiceUtil{
     @Override
-    public void crear() {
-        super.crear();
+    public void crearPedido(Pedido pedido) {
+        super.crearPedido(pedido);
+    }
+
+    public void realizarPago(DetalleVenta totalVenta){
+
     }
 }

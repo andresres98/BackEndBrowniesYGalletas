@@ -1,7 +1,7 @@
 package org.browniesygalletas.entidades;
 
 public class Factura {
-    private int idFactura;
+    private Integer idFactura;
     private Cliente nombre;
     private Cliente apellido;
     private Cliente celular;
@@ -10,7 +10,7 @@ public class Factura {
     private Pedido fechaEntregaPedido;
     private double totalFacturacion;
 
-    public Factura(int idFactura, Cliente nombre, Cliente apellido, Cliente celular, Pedido direccionEntrega, Pedido fechaPedido, Pedido fechaEntregaPedido, double totalFacturacion) {
+    public Factura(Integer idFactura, Cliente nombre, Cliente apellido, Cliente celular, Pedido direccionEntrega, Pedido fechaPedido, Pedido fechaEntregaPedido, double totalFacturacion) {
         this.idFactura = idFactura;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -21,11 +21,11 @@ public class Factura {
         this.totalFacturacion = totalFacturacion;
     }
 
-    public int getIdFactura() {
+    public Integer getIdFactura() {
         return idFactura;
     }
 
-    public void setIdFactura(int idFactura) {
+    public void setIdFactura(Integer idFactura) {
         this.idFactura = idFactura;
     }
 

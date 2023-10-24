@@ -1,17 +1,17 @@
 package org.browniesygalletas.entidades;
 
 public class Domicilio {
-    private int idDomicilio;
+    private Integer idDomicilio;
     private SectoresDomicilios sector;
     private double precioSector;
 
-    public Domicilio(int idDomicilio, SectoresDomicilios sector, double precioSector) {
+    public Domicilio(Integer idDomicilio, SectoresDomicilios sector, double precioSector) {
         this.idDomicilio = idDomicilio;
         this.sector = sector;
         this.precioSector = precioSector;
     }
 
-    public int getIdDomicilio() {
+    public Integer getIdDomicilio() {
         return idDomicilio;
     }
 

@@ -1,8 +1,9 @@
 package org.browniesygalletas.entidades;
 
+import java.util.List;
 import java.util.Objects;
 
-public class Administrador extends ServiceUtill{
+public class Administrador extends ServiceUtil{
     private String adminUser;
     private String passwordAdminUser;
 
@@ -37,5 +38,58 @@ public class Administrador extends ServiceUtill{
         }
     }
 
+    @Override
+    public void crearProducto(Producto producto) {
+        super.crearProducto(producto);
+    }
 
+    @Override
+    public void eliminarProducto(Producto producto) {
+        super.eliminarProducto(producto);
+    }
+
+    @Override
+    public List<Producto> listarProductos() {
+        return super.listarProductos();
+    }
+
+    @Override
+    public void modificarProducto(Producto producto) {
+        super.modificarProducto(producto);
+    }
+
+    @Override
+    public Producto obtenerProductoPorId(Integer id) {
+        return super.obtenerProductoPorId(id);
+    }
+
+    @Override
+    public void crearAdicion(Adiciones adicion) {
+        super.crearAdicion(adicion);
+    }
+
+    @Override
+    public void eliminarAdicion(Adiciones adicion) {
+        super.eliminarAdicion(adicion);
+    }
+
+    @Override
+    public List<Adiciones> listarAdiciones() {
+        return super.listarAdiciones();
+    }
+
+    @Override
+    public void modificarAdiciones(Adiciones adicion) {
+        super.modificarAdiciones(adicion);
+    }
+
+    @Override
+    public Adiciones obtenerAdicionPorId(Integer id) {
+        return super.obtenerAdicionPorId(id);
+    }
+
+    @Override
+    public Factura obtenerFacturaPorId(Integer id) {
+        return super.obtenerFacturaPorId(id);
+    }
 }

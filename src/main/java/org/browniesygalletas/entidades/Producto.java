@@ -1,14 +1,14 @@
 package org.browniesygalletas.entidades;
 
 public class Producto {
-    private int id;
+    private Integer id;
     private String nombre;
     private double precio;
     private String descripcion;
     private CategoriaProductos categoriaProducto;
     private boolean personalizacionProducto;
 
-    public Producto(int id, String nombre, double precio, String descripcion, CategoriaProductos categoriaProducto, boolean personalizacionProducto) {
+    public Producto(Integer id, String nombre, double precio, String descripcion, CategoriaProductos categoriaProducto, boolean personalizacionProducto) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -21,7 +21,7 @@ public class Producto {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

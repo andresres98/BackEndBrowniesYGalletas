@@ -3,13 +3,13 @@ package org.browniesygalletas.entidades;
 import java.util.Date;
 
 public class Pedido {
-    private int idPedido;
+    private Integer idPedido;
     private Cliente idCliente;
     private Date fechaPedido;
     private Date fechaEntregaPedido;
     private String direccionEntrega;
 
-    public Pedido(int idPedido, Cliente idCliente, Date fechaPedido, Date fechaEntregaPedido, String direccionEntrega) {
+    public Pedido(Integer idPedido, Cliente idCliente, Date fechaPedido, Date fechaEntregaPedido, String direccionEntrega) {
         this.idPedido = idPedido;
         this.idCliente = idCliente;
         this.fechaPedido = fechaPedido;
@@ -17,11 +17,11 @@ public class Pedido {
         this.direccionEntrega = direccionEntrega;
     }
 
-    public int getIdPedido() {
+    public Integer getIdPedido() {
         return idPedido;
     }
 
-    public void setIdPedido(int idPedido) {
+    public void setIdPedido(Integer idPedido) {
         this.idPedido = idPedido;
     }
 

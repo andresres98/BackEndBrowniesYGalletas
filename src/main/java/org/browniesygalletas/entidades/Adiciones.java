@@ -1,23 +1,23 @@
 package org.browniesygalletas.entidades;
 
 public class Adiciones {
-    private int id;
+    private Integer id;
     private String nombre;
     private double precio;
     private String descripcion;
 
-    public Adiciones(int id, String nombre, double precio, String descripcion) {
+    public Adiciones(Integer id, String nombre, double precio, String descripcion) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
